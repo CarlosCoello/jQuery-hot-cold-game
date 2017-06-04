@@ -1,0 +1,62 @@
+.jumbotron {
+  background-color: #ff3d00;
+}
+
+.jumbotron h1 {
+  color: #fff;
+}
+
+.jumbotron p {
+  color: #eceff1;
+}
+
+#open {
+  color: #2196f3;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+#open:hover {
+  opacity: .6;
+}
+
+.close {
+  color: #2196f3;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.close:hover {
+  opacity: .6;
+}
+
+.instructions {
+  display: none;
+}
+
+.instructions header h2 {
+  color: #2196f3;
+}
+
+.won {
+  display: none;
+}
+
+.result {
+  margin: 15px 0;
+}
+
+.result-text {
+  color: #ff3d00;
+}
+
+.append-guess {
+  color: #2196f3;
+}
+
+.won-text {
+  color: #00c853;
+  font-size: 21px;
+}

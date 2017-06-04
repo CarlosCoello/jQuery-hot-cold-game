@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hot Or Cold</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<br>
+  <div class="container">
+    <header class="jumbotron">
+      <h1>Hot or Cold</h1>
+      <p class="lead">Come one! Give it a try</p>
+    </header>
+  </div><!-- .container -->
+
+  <div class="container">
+    <p id="open" class="lead">How to Play Hot ir Cold</p>
+    <div class="instructions">
+      <button class="close">Close</button>
+      <header>
+        <h2>How to play Hot or Cold</h2>
+      </header>
+      <p class="lead">It is easy to play and fun. A Random number has been generated you just need to guess that number. The closer your guess is to the random number the hotter you will be and less close you are to the random number the colder you will be</p>
+    </div><!-- .instructions -->
+  </div><!-- .container -->
+
+  <div class="container">
+    <div class="init-wrapper">
+      <form>
+        <div class="form-group">
+          <label>Guess the number</label>
+          <input type="text" name="guess" class="form-control" required>
+        </div>
+        <button class="btn btn-success">Submit Guess</button>
+      </form>
+      <div class="result">
+        <p class="result-text"></p>
+      </div><!-- .how-close -->
+      <div class="all-guess">
+        <p class="append-guess"></p>
+      </div><!-- .all-guess -->
+    </div><!-- .init-wrapper -->
+    <div class="won">
+      <p class="won-text"></p>
+      <button class="btn btn-primary new-game">New Game</button>
+    </div>
+  </div><!-- .container -->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
