@@ -60,3 +60,22 @@
   color: #00c853;
   font-size: 21px;
 }
+
+footer {
+  position: relative;
+  height: 250px;
+  background-color: #212121;
+  margin-top: 50px;
+}
+
+footer .footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer .footer header {
+  color: #fff;
+  text-align: center;
+}
